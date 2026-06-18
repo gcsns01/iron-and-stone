@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iron & Stone | Produtos</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <a href="index.html">
+            <img
+              src="logo_iron_stone.png"
+              alt="Logo Iron & Stone"
+              class="logo-img"
+            />
+            <span class="logo-text">Iron & Stone</span>
+          </a>
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="quem-somos.php">Quem Somos</a></li>
+            <li><a href="produtos.php">Produtos</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="fale-conosco.php" class="btn-nav">Fale Conosco</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="section-padding page-content">
+      <div class="container">
+        <h2 class="section-title">Produtos</h2>
+
+        <div class="grid-cards">
+          <div class="card">
+            <img
+              src="assets/img/martelo.png"
+              alt="Martelo unha Stanley - Cabo de Madeira"
+              class="product-img"
+            />
+            <p>Ferramenta Profissional</p>
+            <h3>Martelo Unha Stanley - Cabo de Madeira</h3>
+            <div class="preco">R$ 189,90</div>
+            <div class="compra-controls">
+              <input
+                type="number"
+                min="1"
+                value="1"
+                class="qtd-input"
+                id="qtd-martelo"
+              />
+              <button
+                class="btn-comprar"
+                onclick="comprar('Martelo Unha Stanley', 189.9, 'qtd-martelo')"
+              >
+                Adicionar
+              </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="assets/img/parafusos.png"
+              alt="Parafusos Auto-Brocantes (pacote 100)"
+              class="product-img"
+            />
+            <p>Ferramentas de Fixação</p>
+            <h3>Parafusos Auto-Brocantes (pacote 100)</h3>
+            <div class="preco">R$ 49,90</div>
+            <div class="compra-controls">
+              <input
+                type="number"
+                min="1"
+                value="1"
+                class="qtd-input"
+                id="qtd-parafusos"
+              />
+              <button
+                class="btn-comprar"
+                onclick="
+                  comprar('Parafusos Auto-Brocantes', 49.9, 'qtd-parafusos')
+                "
+              >
+                Adicionar
+              </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="assets/img/cimento.png"
+              alt="Cimento Portland CP-II (50 kg)"
+              class="product-img"
+            />
+            <p>Material de Construção</p>
+            <h3>Cimento Portland CP-II (50 kg)</h3>
+            <div class="preco">R$ 55,39</div>
+            <div class="compra-controls">
+              <input
+                type="number"
+                min="1"
+                value="1"
+                class="qtd-input"
+                id="qtd-cimento"
+              />
+              <button
+                class="btn-comprar"
+                onclick="
+                  comprar('Cimento Portland CP-II', 55.39, 'qtd-cimento')
+                "
+              >
+                Adicionar
+              </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="assets/img/aco.png"
+              alt="Vergalhão de aço CA-50(Bitola 12.5mm, 12m)"
+              class="product-img"
+            />
+            <p>Aço Estrutural</p>
+            <h3>Vergalhão de aço CA-50(Bitola 12.5mm, 12m)</h3>
+            <div class="preco">R$ 115,00/Barra</div>
+            <div class="compra-controls">
+              <input
+                type="number"
+                min="1"
+                value="1"
+                class="qtd-input"
+                id="qtd-aco"
+              />
+              <button
+                class="btn-comprar"
+                onclick="comprar('Vergalhão de aço CA-50', 115.0, 'qtd-aco')"
+              >
+                Adicionar
+              </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="assets/img/revestimento.png"
+              alt="Porcelanato Retificado - Cimento Queimado (80x80)"
+              class="product-img"
+            />
+            <p>Revestimento Premium</p>
+            <h3>Porcelanato Retificado - Cimento Queimado (80x80)</h3>
+            <div class="preco">R$ 98,00/m²</div>
+            <div class="compra-controls">
+              <input
+                type="number"
+                min="1"
+                value="1"
+                class="qtd-input"
+                id="qtd-revestimento"
+              />
+              <button
+                class="btn-comprar"
+                onclick="
+                  comprar('Porcelanato Retificado', 98.0, 'qtd-revestimento')
+                "
+              >
+                Adicionar
+              </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="assets/img/capacete.png"
+              alt="Capacete de Segurança - Aba frontal"
+              class="product-img"
+            />
+            <p>Equipamento de Proteção</p>
+            <h3>Capacete de Segurança - Aba frontal</h3>
+            <div class="preco">R$ 65,00</div>
+            <div class="compra-controls">
+              <input
+                type="number"
+                min="1"
+                value="1"
+                class="qtd-input"
+                id="qtd-capacete"
+              />
+              <button
+                class="btn-comprar"
+                onclick="comprar('Capacete de Segurança', 65.0, 'qtd-capacete')"
+              >
+                Adicionar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2026 Iron & Stone. Todos os direitos reservados.</p>
+    </footer>
+
+    <div id="toast" class="toast"></div>
+
+    <script>
+      function comprar(nomeProduto, precoUnitario, idInputQtd) {
+        const inputQtd = document.getElementById(idInputQtd);
+        const quantidade = parseInt(inputQtd.value);
+
+        if (quantidade < 1 || isNaN(quantidade)) {
+          mostrarToast("Erro: Insira uma quantidade válida.", "erro");
+          return;
+        }
+
+        const total = (precoUnitario * quantidade).toFixed(2).replace(".", ",");
+        const mensagem = `✅ Adicionado: ${quantidade}x ${nomeProduto} (Total: R$ ${total})`;
+
+        mostrarToast(mensagem, "sucesso");
+
+        inputQtd.value = 1;
+      }
+
+      function mostrarToast(mensagem, tipo) {
+        const toast = document.getElementById("toast");
+        toast.textContent = mensagem;
+
+        toast.className = "toast mostrar " + tipo;
+
+        setTimeout(function () {
+          toast.className = toast.className.replace("mostrar", "");
+        }, 3500);
+      }
+    </script>
+  </body>
+</html>
