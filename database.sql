@@ -1,5 +1,3 @@
--- Estrutura do Banco de Dados - Iron & Stone
-
 CREATE TABLE IF NOT EXISTS `users` (
   `id` INT AUTO_INCREMENT PRIMARY KEY,
   `name` VARCHAR(255) NOT NULL,
@@ -95,8 +93,6 @@ CREATE TABLE IF NOT EXISTS `produto` (
   `preco` DECIMAL(10,2) NOT NULL DEFAULT 0.00,
   `imagem` VARCHAR(500)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
--- Carga de dados inicial
 
 INSERT INTO `categories` (`id`, `name`, `slug`) VALUES
 (1, 'Ferramentas', 'ferramentas'),
